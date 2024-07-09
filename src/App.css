@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+section img{
+    width: 300px;
+    height: 300px;
+}
+.designers img{
+    width: 9%;
+    height: 10%;
+}
+.comments img{
+    width: 23%;
+    height: 50%;
+    object-fit: cover;
+}
+.godtime{
+    width: 25%;
+    height: 50%;
+}
+/* .chooseimg img{
+    width: 222px;
+    height: 200px;
+} */
+/* .images img{
+    width: 70%;
+    height: 90%;
+    object-fit: fit;
+} */
+/* .pickup img{
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
+} */
+
