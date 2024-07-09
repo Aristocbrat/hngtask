@@ -28,7 +28,7 @@ const Hero = () => {
      <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2 '>
        <h1 className='xl:text-6xl xl:ms-[5%] sm:text-[15px] sm:font-bold'>BestSellers</h1>
        <div className='flex w-[90%] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[12%] sm:gap-3.5 sm:justify-between sm:px-1'>
-          <div className="frame1 xl:py-10 sm:py-5 ">
+          <div className="frame1 xl:py-10 sm:py-5 "> 
             <img src="/images/browns.png" alt=""  className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
             <div className="price flex justify-between w-[100%]">
             <p className='xl:text-lg sm:text-[9px]'>Brown School Shoe</p>
