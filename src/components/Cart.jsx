@@ -11,7 +11,7 @@ const Cart = () => {
             className="xl:w-[705px] ml-[5%] xl:h-[505px] sm:w-[250px] sm:h-[220px]"
           />
           <div className="flex flex-col xl:mt-[5%]">
-            <p className="xl:text-5xl xl:py-3 sm:text-[10px] sm:w-[90px] sm:py-5 sm:ml-4">
+            <p className="xl:text-3xl xl:py-3 sm:text-[10px] sm:w-[90px] sm:py-5 sm:ml-4">
               Black loafers
             </p>
             <p className="xl:text-3xl xl:py-3 sm:text-[10px] sm:w-[90px] sm:py-5 sm:ml-4">
@@ -53,7 +53,7 @@ const Cart = () => {
               <p className="text-[#e09889dc] xl:text-2xl sm:text-[17px] pt-4 ps-3 font-bold">
                 COLOUR
               </p>
-              <div className="images flex xl:gap-3 xl:pe-4 sm:gap-3 sm:pe-3 sm:py-5 xl:mt-[-3%]">
+              <div className="images flex xl:gap-3 xl:py-2 xl:pe-4 sm:gap-3 sm:pe-3 sm:py-5 xl:mt-[-3%]">
                 <img
                   src="/images/red.png"
                   alt=""
@@ -80,7 +80,7 @@ const Cart = () => {
               <p className="text-[#e09889dc] xl:text-2xl sm:text-[17px] pt-4 ps-3 font-bold">
                 Qty
               </p>
-              <div className="images flex gap-3 pe-4 sm:py-4">
+              <div className="images flex gap-3 xl:py-2 pe-4 sm:py-4">
                 <img
                   src="/images/carousel.png"
                   alt=""
@@ -95,7 +95,7 @@ const Cart = () => {
       <section>
         <div className="description text-white mt-[3%] ml-[7%]">
           <h2 className="xl:text-4xl sm:text-lg py-5">Description</h2>
-          <p className="xl:w-[45%] xl:text-lg sm:text-[15px] sm:w-[90%]">
+          <p className="xl:w-[45%] xl:text-lg sm:text-[12px] sm:w-[90%]">
             This shoe has a very quality sole it can last longer than you
             expect it to it is also water resistant. Clean and store in a cool
             and dry place to avoid damage. This can last a minimum of 10 years.
@@ -113,7 +113,7 @@ const Cart = () => {
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Pickup Service</h2>
-                <p className="text-[13px] md:text-lg">
+                <p className="text-[12px] md:text-lg">
                   We deliver within 3-5 working days. Be assured that your item
                   is safe with the delivering company.
                 </p>
@@ -127,7 +127,7 @@ const Cart = () => {
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Doorstep Delivery</h2>
-                <p className="text-[13px] md:text-lg">
+                <p className="text-[12px] md:text-lg">
                   We can deliver to your doorstep at any time you want it.
                 </p>
               </div>
@@ -140,7 +140,7 @@ const Cart = () => {
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Return Policy</h2>
-                <p className="text-[13px] md:text-lg">
+                <p className="text-[12px] md:text-lg">
                   If the item is damaged, you can return it within one month
                   after receiving your item.
                 </p>
@@ -154,7 +154,7 @@ const Cart = () => {
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Warranty</h2>
-                <p className="text-[13px] md:text-lg">
+                <p className="text-[12px] md:text-lg">
                   All branded items have a warranty. If items get spoiled, they
                   can be returned to the company for a check-up.
                 </p>
@@ -165,7 +165,7 @@ const Cart = () => {
         <div className="des2 mt-[-40%] ml-[7%]">
           <a
             href="/checkout"
-            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[55%] xl:mt-[-3%] relative w-full text-center hover:bg-green-600 rounded-[10px]"
+            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[45%] xl:mt-[10%] relative w-full text-center hover:bg-green-600 rounded-[10px]"
           >
             Checkout
           </a>
