@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Header/Navbar';
 import Cart from './components/Cart';
@@ -8,7 +8,7 @@ import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <Router>
+    
       <div className='bg-black'>
         <Navbar />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    
   );
 }
 
