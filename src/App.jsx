@@ -1,31 +1,27 @@
-import {Routes , Route } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/Header/Navbar'
-import Cart from './components/Cart'
-import Hero from './components/Hero'
-import Footer from './components/Footer/Footer'
-import Checkout from './components/Checkout'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Header/Navbar';
+import Cart from './components/Cart';
+import Hero from './components/Hero';
+import Footer from './components/Footer/Footer';
+import Checkout from './components/Checkout';
 
 function App() {
- 
-
   return (
-    <>
-    
-    <div className='bg-black '>
-         <Navbar/>
-         <Routes>
-          <Route path='/Cart' element={<Cart/>}/>
-          <Route path='/' element={<Hero/>}/>
-          <Route path='/checkout' element={<Checkout/>}/>
-         </Routes>
-         <Footer/>    
-    </div>
-   
-    </>
-    
-      
-  )
+    <Router>
+      <div className='bg-black'>
+        <Navbar />
+        <Routes>
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/' element={<Hero />} />
+          <Route path='/checkout' element={<Checkout />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
+
+
