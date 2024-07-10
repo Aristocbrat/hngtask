@@ -15,7 +15,7 @@ function App() {
     <div className='bg-black '>
          <Navbar/>
          <Routes>
-          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/Cart' element={<Cart/>}/>
           <Route path='/' element={<Hero/>}/>
           <Route path='/checkout' element={<Checkout/>}/>
          </Routes>
