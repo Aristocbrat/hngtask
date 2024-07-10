@@ -39,7 +39,7 @@ const cart = () => {
                 <div className="colour bg-white rounded-[15px] flex justify-between xl:h-[70px] xl:w-[400px] sm:w-[150px]">
                    <p className='text-[#e09889dc] xl:text-2xl sm:text-[17px] pt-4 ps-3 font-bold'>Qty</p>
                    <div className="images flex gap-3 pe-4  sm:py-4">
-                      <img src="/images/carousel.png" alt="" className='xl:pt-3 cursor-pointer sm:w-[160px] sm:h-[70%] xl:w-[150px] xl:h-[70px] sm:py-2 sm:px-4 ' />
+                     <img src="/images/carousel.png" alt="" className='xl:pt-3 cursor-pointer sm:w-[160px] sm:h-[70%] xl:w-[150px] xl:h-[70px] sm:py-2 sm:px-4 ' />
                    </div>
                 </div>
                </div>
@@ -86,10 +86,10 @@ const cart = () => {
   </div>
 </div>
 
-            <div className="des2 mt-[-40%] ml-[7%]">
-           <a href="/checkout" className='text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 mt-6 w-full text-center hover:bg-green-600 rounded-[10px]'>Checkout</a>
-                        <img src="images/loafers.png" alt="" className='xl:w-[605px]  xl:h-[505px] sm:w-[120px] sm:h-[200px]' />
-                    </div>
+  <div className="des2 mt-[-40%] ml-[7%]">
+  <a href="/checkout" className='text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 mt-6 w-full text-center hover:bg-green-600 rounded-[10px]'>Checkout</a>
+  <img src="images/loafers.png" alt="" className='xl:w-[605px]  xl:h-[505px] sm:w-[120px] sm:h-[200px]' />
+  </div>
             
         </section>
     

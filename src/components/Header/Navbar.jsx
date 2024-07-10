@@ -19,6 +19,3 @@ const Navbar = () => {
 export default Navbar;
 
 
-
-// import React from 'react'
-

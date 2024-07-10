@@ -136,7 +136,7 @@ const Hero = () => {
        <div className='flex w-[full] flex-wrap  ml-[5%] xl:px-2 xl:gap-[15%] sm:gap-[9%] sm:justify-between '>
           <div className="frame1 py-10  ">
             <img src="/images/na1.png" alt="" className='size-[200] sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[90%]">
+            <div className="price flex justify-between xl:w-[100%]">
             <p className='xl:text-lg sm:text-[9px]'>Valentino Bags</p>
             <p className='sm:text-[5px] xl:text-lg'>
             <i className="ri-star-fill text-yellow-400"></i>
