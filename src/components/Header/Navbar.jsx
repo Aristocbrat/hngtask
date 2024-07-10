@@ -3,7 +3,13 @@ import React from 'react';
 const Navbar = () => {
   return (
     <>
-    <div className="f bg-[#CA2F69] py-4"><p className='text-white ml-[45%] px-9 flex  '>Nationwide delivery<img src='/images/Vector.png '/></p></div>
+<div className="f bg-[#CA2F69] py-4">
+  <p className='text-white flex justify-center sm:justify-start sm:ml-[10%] md:ml-[25%] lg:ml-[35%] xl:ml-[45%] px-4 sm:px-6 md:px-8'>
+    Nationwide delivery
+    <img src='/images/Vector.png' className='ml-2' />
+  </p>
+</div>
+
     <div className='flex items-center justify-between w-full py-1 px-4 md:px-[6%]'>
       
       <a href="/"><img src="/images/logo.png" alt="logo" width={120} className="md:w-[180px]" /></a>

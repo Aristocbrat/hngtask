@@ -23,243 +23,96 @@ const Hero = () => {
         </div> 
         </div>
     </div>
-
-    {/* ------------------------------------------------------------------------------------------------------------------- */}
-     <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2 '>
-       <h1 className='xl:text-6xl xl:ms-[5%] sm:text-[15px] sm:font-bold'>BestSellers</h1>
-       <div className='flex w-[90%] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[12%] sm:gap-3.5 sm:justify-between sm:px-1'>
-          <div className="frame1 xl:py-10 sm:py-5 "> 
-            <img src="/images/browns.png" alt=""  className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
+{/*  */}<section className="BestSellers text-white w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2">
+<h1 className="xl:text-6xl xl:ms-[5%] sm:text-[15px] sm:font-bold">BestSellers</h1>
+        <div className="flex w-[90%] flex-wrap xl:ml-[5%] xl:px-2 xl:gap-[12%] sm:gap-3.5 sm:justify-between sm:px-1">
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/browns.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Brown School Shoe</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Brown School Shoe</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg ' > ₦10,000.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦10,000.00</p>
           </div>
-          <div className="frame1 xl:py-10 sm:py-5 ">
-            <img src="/images/greens.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/greens.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px] '>Fashion & Bags</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Fashion & Bags</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦10,000.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦10,000.00</p>
           </div>
-          <div className="frame1 xl:py-10 sm:py-5 ">
-            <img src="/images/blacky.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'  />
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/blacky.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Leather  Bags</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Leather Bags</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦20,500.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦20,500.00</p>
           </div>
-          <div className="frame1 xl:py-10 sm:py-5 ">
-            <img src="/images/bagss.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'  />
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/bagss.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Small purse</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Small Purse</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦9,000.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦9,000.00</p>
           </div>
-          <div className="frame1 xl:py-10 sm:py-5 ">
-            <img src="/images/loafers.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'  />
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/loafers.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Loafers Shoe</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Loafers Shoe</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦25,000.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦25,000.00</p>
           </div>
-          <div className="frame1 xl:py-10 sm:py-5 ">
-            <img src="/images/hshow.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'  />
+          <div className="frame xl:py-10 sm:py-5">
+            <img src="/images/hshow.png" alt="" className="sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]" />
             <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Rene Caovilla Shoes</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
+              <p className="xl:text-lg sm:text-[9px]">Pink Purse</p>
+              <p className="sm:text-[5px] xl:text-lg">
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill text-yellow-400"></i>
+                <i className="ri-star-fill"></i>
+              </p>
             </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦18,000.00</p>
+            <p className="sm:text-[9px] xl:text-lg">₦35,000.00</p>
           </div>
-       </div>
-     </section>
-     <section>
-      <div className="delivery text-white w-[100%] h-full xl:px-10 top-[-5%] flex gap-20 justify-between   ">
-        <div className="deliveryt xl:ml-[5%] mt-[5%] sm:ml-2">
-        <p className='xl:text-8xl sm:text-2xl tracking-wider  '>We<br/> DELIVER
-        </p>
-        <p className='xl:text-2xl sm:text-[9px] xl:w-[400px] xl:leading-relaxed sm:w-[160px] '>We deliver Nationwide.,<br />
-         Our delivery takes at least 2-3 working days.
-        We are always available to serve our customers better</p>
         </div>
-        <div className=' h-[90%] w-[50%] py-7 '>
-        <img src="/images/totbag.png" alt="" className='xl:mt-[-7%] xl:w-[80%] h-full relative sm:w-[180%]' />
-        <img src="/images/eve2.png" alt="" className='absolute xl:w-[20%] xl:h-[20%] xl:mt-[-21%] xl:ml-[4%] sm:w-[9%] sm:h-[11%] sm:mt-[-28%] sm:ml-10 sm:object-cover'/>
-        </div>
-      </div>
-     </section>
-
-{/* ---------------------------------------------------------------------------------------------------------------- */}
-      <section className='New Arrivals text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2'>
-       <h1 className='xl:text-6xl sm:text-lg xl:ms-[5%] sm:font-bold'>New Arrivals</h1>
-       <div className='flex w-[full] flex-wrap  ml-[5%] xl:px-2 xl:gap-[15%] sm:gap-[9%] sm:justify-between '>
-          <div className="frame1 py-10  ">
-            <img src="/images/na1.png" alt="" className='size-[200] sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between xl:w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Valentino Bags</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦10,000.00</p>
-          </div>
-          <div className="frame1 py-10  ">
-            <img src="/images/na2.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Shoes</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦20,000.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na3.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Nike shoes </p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦80,000.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na4.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>White Heels</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill"></i>
-            </p>
-            </div>
-            <p> ₦19,500.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na5.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>School shoes</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦15,000.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na6.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Multi purpose bag</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦45,000.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na7.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Bag </p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦18,000.00</p>
-          </div>
-          <div className="frame1 py-10 ">
-            <img src="/images/na8.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'> Small bag</p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦5,000.00</p>
-          </div>
-          <div className="frame1 xl:py-10 ">
-            <img src="/images/na9.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
-            <div className="price flex justify-between w-[100%]">
-            <p className='xl:text-lg sm:text-[9px]'>Occasion heels </p>
-            <p className='sm:text-[5px] xl:text-lg'>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            <i className="ri-star-fill text-yellow-400"></i>
-            </p>
-            </div>
-            <p className='sm:text-[9px] xl:text-lg'> ₦35,000.00</p>
-          </div>
+    
+          <div>  
           <button className='w-[96%] text-[#CE877C] font-bold text-2xl tracking-wide xl:py-5 sm:mt-4 bg-white'>See more</button>
        </div>
      </section> 
