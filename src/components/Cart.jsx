@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cart = () => {
   return (
-    <div className="bg-black h-full w-full">
+    <div className="bg-black h-full w-full overflow-hidden">
       <section>
         <div className="choose xl:px-12 flex xl:gap-9 sm:gap-3 text-white">
           <img
@@ -24,7 +24,7 @@ const Cart = () => {
               <i className="ri-star-fill text-yellow-400"></i>
               <i className="ri-star-fill"></i>
             </div>
-            <button className="bg-white text-[#e09889dc] xl:py-4 xl:px-8 sm:py-[3px] sm:px-[40px] sm:mt-[94%] sm:ml-[-65%] xl:ml-[-1%] xl:mt-[19%] sm:absolute rounded-[10px] xl:text-3xl">
+            <button className="bg-white text-[#e09889dc] xl:py-4 xl:px-8 sm:py-[3px] sm:px-[40px] sm:mt-[94%] sm:ml-[-65%] xl:ml-[-1%] xl:mt-[23%] sm:absolute rounded-[10px] xl:text-3xl">
               Add to cart
             </button>
           </div>
@@ -165,7 +165,7 @@ const Cart = () => {
         <div className="des2 mt-[-40%] ml-[7%]">
           <a
             href="/checkout"
-            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[55%] relative w-full text-center hover:bg-green-600 rounded-[10px]"
+            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[55%] xl:mt-[-3%] relative w-full text-center hover:bg-green-600 rounded-[10px]"
           >
             Checkout
           </a>
