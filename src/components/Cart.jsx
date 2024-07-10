@@ -87,8 +87,8 @@ const cart = () => {
 </div>
 
   <div className="des2 mt-[-40%] ml-[7%]">
-  <a href="/checkout" className='text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 mt-6 w-full text-center hover:bg-green-600 rounded-[10px]'>Checkout</a>
-  <img src="images/loafers.png" alt="" className='xl:w-[605px]  xl:h-[505px] sm:w-[120px] sm:h-[200px]' />
+  <a href="/checkout" className='text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[55%]  relative w-full text-center hover:bg-green-600 rounded-[10px]'>Checkout</a>
+  <img src="images/loafers.png" alt="" className='xl:w-[605px]  xl:h-[505px] sm:w-[120px] sm:h-[200px] xl:mt-[10%]' />
   </div>
             
         </section>
