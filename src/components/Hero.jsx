@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-    <div className='flex  w-full h-full items-center justify-center  xl:pt-[4%] xl:px-8 md:flex-row md:px-8 sm:px-2 '>
+    <div className='flex  w-full h-full items-center justify-center  xl:pt-[-5%] xl:px-8 md:flex-row md:px-8 sm:px-2 '>
      
       <div className='xl:w-[50%] sm:w-[50%] flex flex-col xl:h-[56vh] sm:h-[16%]  xl:gap-9 lg:gap-7 sm:gap-1    '>
         <h1 className='text-white w-[100%] lg:text-3xl xl:text-6xl xl:w-[70%] xl:pt-2 xl:mt-[-6%]  sm:w-[80%] sm:text-[17px]'>Nigerian’s  NO. 1 <br/>
@@ -117,7 +117,7 @@ const Hero = () => {
      <section>
       <div className="delivery text-white w-[100%] h-full xl:px-10 top-[-5%] flex gap-20 justify-between   ">
         <div className="deliveryt xl:ml-[5%] mt-[5%] sm:ml-2">
-        <p className='xl:text-8xl sm:text-2xl tracking-wider  '>We<br/> DELIVER
+        <p className='xl:text-6xl sm:text-2xl tracking-wider  '>We<br/> DELIVER
         </p>
         <p className='xl:text-2xl sm:text-[9px] xl:w-[400px] xl:leading-relaxed sm:w-[160px] '>We deliver Nationwide.,<br />
          Our delivery takes at least 2-3 working days.
@@ -267,15 +267,15 @@ const Hero = () => {
      <div className="purple bg-[#dd1f65ad] xl:px-9 xl:py-12 xl:mt-[8%] xl:w-[80%] xl:mx-auto">
       <div className="rectt flex xl:justify-between sm:justify-evenly">
       <div className="rec1 bg-[#D9D9D9] rounded-[20px] xl:w-[30%] xl:h-[80%] xl:py-7 sm:w-[32%] sm:h-[25%] sm:py-5 sm:mt-2 sm:mb-2 flex flex-row">
-          <img src="/images/rec1.png" alt="" className='xl:px-7  xl:size-4/12 sm:w-[30%] sm:object-cover ' />
+          <img src="/images/rec1.png" alt="" className='xl:px-7 xl:mt-3  xl:size-4/12 sm:w-[30%] sm:object-cover ' />
           <p className='xl:px-2 xl:text-lg sm:text-[7px]'>Free Delivery from<br/> ₦10,000 </p>
       </div>
       <div className="rec1 bg-[#D9D9D9] rounded-[20px] xl:w-[30%] xl:h-[80%] xl:py-4 sm:w-[32%] sm:h-[25%] sm:py-5 sm:mt-2 sm:mb-2 flex flex-row">
-          <img src="/images/rec2.png" alt="" className='xl:px-7 xl:size-4/12 sm:w-[30%] sm:object-cover' />
-          <p className='xl:px-2 sm:text-[7px] xl:text-lg'>Pay Install mental for a<br />product</p>
+          <img src="/images/rec2.png" alt="" className='xl:px-8 xl:mt-5 xl:size-4/12 sm:w-[30%] sm:object-cover' />
+          <p className='xl:px-1 xl:py-3 sm:text-[7px] xl:text-lg'>Pay Install mental for a<br />product</p>
       </div>
       <div className="rec1 bg-[#D9D9D9] rounded-[20px] xl:w-[30%] xl:h-[80%] xl:py-7 sm:w-[32%] sm:h-[20%] sm:py-5 sm:mt-2  sm:mb-2 flex flex-row">
-          <img src="/images/rec3.png" alt="" className='xl:px-7 xl:size-4/12 sm:w-[30%] sm:object-cover' />
+          <img src="/images/rec3.png" alt="" className='xl:px-7 xl:mt-3 xl:size-4/12 sm:w-[30%] sm:object-cover' />
           <p className='xl:px-5 sm:text-[7px] xl:text-lg'>Return within one week. </p>
       </div>
       </div>
@@ -301,23 +301,23 @@ const Hero = () => {
       <div className="reviews text-white mt-[4%] h-[40vh]">
         <h1 className='xl:text-7xl sm:text-lg  ml-[7%]'>Reviews</h1>
         <div className="comments flex xl:w-[95%] sm:w-[100%] xl:mt-[3%] xl:h-[80%] xl:flex-row sm:flex-col sm:h-[100%]  sm:gap-3">
-           <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[25%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[45%] sm:h-[40%] sm:mt-[5%]">
+           <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[22%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[45%] sm:h-[40%] sm:mt-[5%]">
              <img src="/images/c1.png" alt="" className='xl:py-5 xl:px-3 sm:py-3 sm:object-cover ' />
              <p className='xl:ps-4 xl:ml-[5%] xl:text-[10px] sm:text-[8px] sm:ml-[20%] sm:mt-[-4%]'>“I Love your customer service so much.<br/>
                    They were very helpful.”</p>
-             <p className='xl:ps-4 xl:pt-3 xl:mt-2 sm:text-[8px] sm:px-3'>KELECHI</p>
+             <p className='xl:ps-4 xl:pt-3 xl:mt-3 sm:text-[8px] sm:px-3'>KELECHI</p>
            </div>
-           <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[25%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[43%] sm:h-[40%] sm:mt-[-5%] sm:ml-[55%]">
+           <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[22%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[43%] sm:h-[40%] sm:mt-[-5%] sm:ml-[55%]">
              <img src="/images/c2.png" alt="" className='xl:py-5 xl:px-3 sm:py-3 sm:object-cover' />
              <p className='xl:ps-4 xl:ml-[5%] xl:mt-[-4%] sm:text-[8px] sm:ml-[20%] sm:mt-[-4%] xl:text-[10px]'>“I got what i ordered.<br/> 
              It made me look so amazing at<br/> the last event i attended”. </p>
-             <p className='xl:ps-4 xl:py-3 sm:text-[8px] sm:px-3'>ZARAH</p>
+             <p className='xl:ps-4 xl:py-3 xl:mt-3 sm:text-[8px] sm:px-3'>ZARAH</p>
            </div>
            <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[22%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[45%] sm:h-[40%] sm:mt-[-3%] sm:ml-[2%] ">
              <img src="/images/c3.png" alt="" className='xl:py-5 xl:px-3 sm:py-3 godtime sm:object-cover' />
              <p className='xl:ps-4 xl:mt-[-3%]xl:ml-[6%] sm:text-[8px] sm:ml-[20%] sm:mt-[-4%] xl:text-[10px]'>“The delivery service is also very<br/> fast. I was able to get what i <br/>ordered at the appropriate time.”
              </p>
-             <p className='xl:ps-2 xl:py-2 xl:mt-[-3.5%] sm:text-[8px] sm:px-3'>GOD’STIME</p>
+             <p className='xl:ps-2 xl:py-2 xl:mt-[3.5%] sm:text-[8px] sm:px-3'>GOD’STIME</p>
            </div>
         </div>
       </div>
