@@ -6,7 +6,7 @@ const Navbar = () => {
 <div className="f bg-[#CA2F69] py-4">
   <p className='text-white flex justify-center sm:justify-start sm:ml-[10%] md:ml-[25%] lg:ml-[35%] xl:ml-[40%] px-4 sm:px-6 md:px-8'>
     Nationwide delivery
-    <img src='/images/Vector.png' className='ml-2' />
+    <img src='/images/Vector.png' className='ml-2 xl:w-[20px]' />
   </p>
 </div>
 

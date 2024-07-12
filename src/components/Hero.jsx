@@ -25,7 +25,7 @@ const Hero = () => {
     </div>
 
     {/* ------------------------------------------------------------------------------------------------------------------- */}
-     <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2 '>
+     <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-3  '>
        <h1 className='xl:text-6xl xl:ms-[5%] sm:text-[15px] sm:font-bold'>BestSellers</h1>
        <div className='flex w-[90%] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[9%] sm:gap-3.5 sm:justify-between sm:px-1'>
           <div className="frame1 xl:py-10 sm:py-5 "> 
@@ -131,7 +131,7 @@ const Hero = () => {
      </section>
 
 {/* ---------------------------------------------------------------------------------------------------------------- */}
-      <section className='New Arrivals text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-2'>
+      <section className='New Arrivals text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-3'>
        <h1 className='xl:text-6xl sm:text-lg xl:ms-[5%] sm:font-bold'>New Arrivals</h1>
        <div className='flex w-[full] flex-wrap  ml-[5%] xl:px-2 xl:gap-[11%] sm:gap-[9%] sm:justify-between '>
           <div className="frame1 py-10  ">
@@ -188,7 +188,7 @@ const Hero = () => {
             <i className="ri-star-fill"></i>
             </p>
             </div>
-            <p> ₦19,500.00</p>
+            <p className='sm:text-[9px] xl:text-lg'> ₦19,500.00</p>
           </div>
           <div className="frame1 py-10 ">
             <img src="/images/na5.png" alt="" className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
@@ -298,7 +298,7 @@ const Hero = () => {
      </section>
      {/* ----------------------------------------------------------------------------------------------------------------- */}
      <section>
-      <div className="reviews text-white mt-[4%] h-[40vh]">
+      <div className="reviews text-white mt-[4%] h-[40vh] px-4">
         <h1 className='xl:text-7xl sm:text-lg  ml-[7%]'>Reviews</h1>
         <div className="comments flex xl:w-[95%] sm:w-[100%] xl:mt-[3%] xl:h-[80%] xl:flex-row sm:flex-col sm:h-[100%]  sm:gap-3">
            <div className="comment1 bg-white text-black xl:mt-[2%] xl:w-[22%] xl:ml-[8%] xl:h-[78%] rounded-[20px] sm:w-[45%] sm:h-[40%] sm:mt-[5%]">

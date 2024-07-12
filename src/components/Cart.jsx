@@ -93,7 +93,7 @@ const Cart = () => {
       </section>
       {/* ----------------------------------------------------------------------------------------------------- */}
       <section>
-        <div className="description text-white mt-[3%] ml-[7%]">
+        <div className="description text-white mt-[3%] ml-[7%] sm:flex sm:flex-col">
           <h2 className="xl:text-4xl sm:text-lg py-5">Description</h2>
           <p className="xl:w-[45%] xl:text-lg sm:text-[12px] sm:w-[90%]">
             This shoe has a very quality sole it can last longer than you
@@ -103,7 +103,7 @@ const Cart = () => {
             colours as well. The sole is made of pure rubber.
           </p>
         </div>
-        <div className="services text-white w-full px-8 py-5 md:w-[700px] md:ml-[50%] md:mt-[-5%] md:pl-[10%] sm:ml-[32%]">
+        <div className="services text-white w-full px-8 py-5 md:w-[700px] md:ml-[50%] md:mt-[-5%] md:pl-[10%] sm:ml-[1%]">
           <div className="pickup flex flex-col items-center gap-6 md:gap-4">
             <div className="service-item flex items-center gap-4 w-full">
               <img
@@ -113,7 +113,7 @@ const Cart = () => {
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Pickup Service</h2>
-                <p className="text-[12px] md:text-lg">
+                <p className="text-[12px] md:text-lg sm:ml-[-5%]">
                   We deliver within 3-5 working days. Be assured that your item
                   is safe with the delivering company.
                 </p>
@@ -165,14 +165,14 @@ const Cart = () => {
         <div className="des2 mt-[-40%] ml-[7%]">
           <a
             href="/checkout"
-            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[12%] top-[43px] relative max-w-44  text-center hover:bg-green-600 rounded-[10px]"
+            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[12%] xl:top-[43px] sm:top-[-560px]  relative max-w-44  text-center hover:bg-green-600 rounded-[10px]"
           >
             Checkout
           </a>
           <img
             src="/images/loafers.png"
             alt=""
-            className="xl:w-[605px] xl:h-[505px] sm:w-[120px] sm:h-[200px] xl:mt-[10%]"
+            className="xl:w-[605px] xl:h-[505px] sm:w-[320px] sm:h-[250px] xl:mt-[10%] sm:mt-[40%]"
           />
         </div>
       </section>
