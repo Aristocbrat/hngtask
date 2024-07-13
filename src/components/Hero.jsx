@@ -3,23 +3,23 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-    <div className='flex  w-full h-full items-center justify-center  xl:pt-[-5%] xl:px-8 md:flex-row md:px-8 sm:px-2 '>
+    <div className='flex  w-full h-full items-center justify-center  xl:pt-[-5%] xl:px-8 md:flex-row sm:flex-col-reverse md:px-8 sm:px-2 '>
      
       <div className='xl:w-[50%] sm:w-[50%] flex flex-col xl:h-[56vh] sm:h-[16%]  xl:gap-9 lg:gap-7 sm:gap-1    '>
-        <h1 className='text-white w-[100%] lg:text-3xl xl:text-6xl xl:w-[70%] xl:pt-2 xl:mt-[-6%]  sm:w-[80%] sm:text-[17px]'>Nigerian’s  NO. 1 <br/>
+        <h1 className='text-white w-[100%] lg:text-3xl xl:text-6xl xl:w-[70%] xl:pt-2 xl:mt-[-6%]  sm:w-[80%] sm:mt-4 sm:text-[17px]'>Nigerian’s  NO. 1 <br/>
         Fashion Plug</h1>
-        <div className=' flex flex-col xl:py-4 lg:py-3 sm:py-2   '>
-        <p className='text-white xl:py-4 lg:py-4 sm:py-[2px]  sm:text-[9px] xl:text-2xl lg:text-2xl'>Our goal is to make our customers look great in every outfit that<br/> the choose to wear.<br/>
+        <div className=' flex flex-col xl:py-4 lg:py-3 sm:py-2 '>
+        <p className='text-white xl:py-4 lg:py-4 sm:py-[2px]  sm:text-[11px] xl:text-2xl lg:text-2xl'>Our goal is to make our customers look great in every outfit that<br/> the choose to wear.<br/>
          <p className=' xl:py-4 lg:py-4 sm:py-[2px] sm:text-[9px] xl:text-2xl lg:text-2xl'> We are provide the best quality affordable wears.</p>
          <p className=' xl:py-4 lg:py-4 sm:py-[2px] xl:text-2xl lg:text-2xl'> We also dress you for every occasion.</p> 
        </p>
        </div>
         </div>
-        <div className='w-[40%] xl:w-[40%] lg:w-[40%] sm:w-[60%]  '>
+        <div className='w-[40%] xl:w-[40%] lg:w-[40%] sm:w-[80%]  '>
         <img src="/images/Dance.png" alt="people dancing" className= 'size-[150%] pt-5 xl:h-[75vh] lg:h-[75vh] md:h-[60%] sm:h-[60%] relative z-20' />
-        <img src="/images/eve1.png" alt="eve" className='absolute xl:mt-[-18%] xl:ml-[3%] z-10 sm:w-12 sm:mt-[-24%] xl:w-[120px]  sm:ml-5 ' />
+        <img src="/images/eve1.png" alt="eve" className='absolute xl:mt-[-18%] xl:ml-[3%] z-10 sm:w-12 sm:mt-[-30%] xl:w-[120px]  sm:ml-8 ' />
         <div className='flex w-[full] justify-start xl:ms-[-10%] '>
-        <button className='bg-white rounded-[25px] xl:px-[80px] xl:py-5 xl:ms-[-25%] xl:text-2xl text-[#CE877C] sm:ml-[-10%] sm:py-1 sm:px-7 sm:text-[8px]'>SHOP NOW</button>
+        <button className='bg-white rounded-[25px] xl:px-[80px] xl:py-5 xl:ms-[-25%] xl:text-2xl text-[#CE877C] sm:ml-[30%] sm:py-1 sm:px-7 sm:text-[8px]'>SHOP NOW</button>
         </div> 
         </div>
     </div>

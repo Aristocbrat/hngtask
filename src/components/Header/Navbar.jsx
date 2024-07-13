@@ -17,9 +17,10 @@ const Navbar = () => {
         <input type="text" placeholder="Search" className="placeholder:text-sm w-[200px] md:min-w-[400px] text-zinc-700 font-bold bg-transparent outline-none border-none" />
         <a href=""><i className="ri-search-line text-[#EAA29480]"></i></a>
       </div>
-      <div className='flex items-center gap-4'>
+      <div className='flex items-center gap-4 text-white'>
         <a href="/cart"><i className="ri-shopping-cart-line text-white text-xl md:text-3xl"></i></a>
         <a href=""><i className="ri-user-3-line text-white text-xl md:text-3xl"></i></a>
+        <a href="/shop" className='text-[12px]'>Shop Here</a>
       </div>
     </div>
     </>
