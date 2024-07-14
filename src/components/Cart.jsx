@@ -24,7 +24,7 @@ const Cart = () => {
               <i className="ri-star-fill text-yellow-400"></i>
               <i className="ri-star-fill"></i>
             </div>
-            <button className="bg-white text-[#e09889dc] xl:py-4 xl:px-8 sm:py-[3px] sm:px-[40px] sm:mt-[94%] sm:ml-[-65%] xl:ml-[-1%] xl:mt-[23%] sm:absolute rounded-[10px] xl:text-3xl">
+            <button className="bg-white text-[#e09889dc] xl:py-4 xl:px-8 sm:py-[3px] sm:px-[40px] sm:mt-[99%] sm:ml-[-65%] xl:ml-[-1%] xl:mt-[23%] sm:absolute rounded-[10px] xl:text-3xl">
               Add to cart
             </button>
           </div>
@@ -48,7 +48,7 @@ const Cart = () => {
             alt=""
             className="sm:w-[100px] sm:h-[40%] xl:w-[222px] xl:h-[200px]"
           />
-          <div className="colorpallet flex flex-col xl:gap-11 sm:gap-5 sm:mt-[33%] sm:ml-[-45%] xl:mt-[1%] xl:ml-[-1%]">
+          <div className="colorpallet flex flex-col xl:gap-11 sm:gap-5 sm:mt-[33%] sm:ml-[-47%] xl:mt-[1%] xl:ml-[-1%]">
             <div className="colour bg-white rounded-[15px] flex justify-between xl:h-[70px] xl:w-[400px] sm:w-[150px]">
               <p className="text-[#e09889dc] xl:text-2xl sm:text-[17px] pt-4 ps-3 font-bold">
                 COLOUR
@@ -123,7 +123,7 @@ const Cart = () => {
               <img
                 src="/images/fastdel.png"
                 alt="Doorstep Delivery"
-                className="w-[30px] h-[50px] md:w-[90px] md:h-[80px] mt-4"
+                className="w-[50px] h-[50px] md:w-[90px] md:h-[80px] mt-4"
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Doorstep Delivery</h2>
@@ -136,7 +136,7 @@ const Cart = () => {
               <img
                 src="/images/return.png"
                 alt="Return Policy"
-                className="w-[30px] h-[50px] md:w-[90px] md:h-[80px] mt-4"
+                className="w-[50px] h-[50px] md:w-[90px] md:h-[80px] mt-4"
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Return Policy</h2>
@@ -150,7 +150,7 @@ const Cart = () => {
               <img
                 src="/images/security.png"
                 alt="Warranty"
-                className="w-[30px] h-[30px] md:w-[90px] md:h-[80px] mt-4"
+                className="w-[50px] h-[30px] md:w-[90px] md:h-[80px] mt-4"
               />
               <div className="textes">
                 <h2 className="text-lg md:text-4xl py-3">Warranty</h2>
@@ -165,7 +165,7 @@ const Cart = () => {
         <div className="des2 mt-[-40%] ml-[7%]">
           <a
             href="/checkout"
-            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[12%] xl:top-[43px] sm:top-[-560px]  relative max-w-44  text-center hover:bg-green-600 rounded-[10px]"
+            className="text-white bg-gray-700 py-2 px-4 md:py-4 md:px-7 xl:ml-[12%] xl:top-[43px] sm:top-[-568px]  relative max-w-44  text-center hover:bg-green-600 rounded-[10px]"
           >
             Checkout
           </a>

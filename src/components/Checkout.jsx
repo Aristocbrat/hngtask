@@ -6,7 +6,7 @@ const Checkout = () => {
     <div className="cart3 bg-white border-[#e72b70] xl:w-[40%] xl:ml-[8%] xl:py-4 sm:w-[85%] sm:ml-3 sm:mt-4 sm:py-3 sm:px-7 rounded-[15px]">
         <p className='text-[#CA2F69] text-2xl ml-[6%]'>Cart(3)</p>   
     </div>
-    <div className="shooping bg-white border-[#CA2F69] border-x-[#CA2F69] xl:w-[40%] xl:ml-[8%] xl:mt-1 xl:py-6 xl:px-5 rounded-[9px] sm:ml-3 sm:w-[94%] flex">
+    <div className="shooping bg-white border-[#CA2F69] border-x-[#CA2F69] xl:w-[40%] xl:ml-[8%] xl:mt-1 xl:py-6 xl:px-5 rounded-[9px] sm:ml-3 sm:w-[94%] sm:h-[100px] sm:mt-4 flex">
     <i className="ri-shopping-cart-line absolute xl:ml-[34%] sm:ml-[80%] text-[#CA2F69]"></i>
          <img src="/images/lo.png" alt=""/>
          <div className="prices flex justify-between w-full xl:mt-5 sm:mt-[4%] xl:text-2xl xl:px-2">
@@ -18,7 +18,7 @@ const Checkout = () => {
            
          </div>
         </div>
-        <div className="shooping bg-white border-[#CA2F69] sm:w-[94%] xl:w-[40%] xl:ml-[8%] xl:mt-[2%] xl:py-6 xl:px-5 rounded-[9px] sm:ml-3 flex">
+        <div className="shooping bg-white border-[#CA2F69] sm:w-[94%] xl:w-[40%] xl:ml-[8%] xl:mt-[2%] xl:py-6 xl:px-5 rounded-[9px] sm:ml-3 sm:h-[100px] sm:mt-4 flex">
         <i className="ri-shopping-cart-line absolute xl:ml-[34%] sm:ml-[80%] text-[#CA2F69]"></i>
          <img src="/images/flat.png" alt=""/>
          
@@ -33,7 +33,7 @@ const Checkout = () => {
           
          </div>
         </div>
-        <div className="shooping bg-white border-[#CA2F69] border-x-[#CA2F69] sm:w-[94%] xl:w-[40%] xl:ml-[8%] xl:mt-[2%] xl:py-6  xl:px-5 rounded-[9px] sm:ml-3 flex ">
+        <div className="shooping bg-white border-[#CA2F69] border-x-[#CA2F69] sm:w-[94%] xl:w-[40%] xl:ml-[8%] xl:mt-[2%] xl:py-6  xl:px-5 rounded-[9px] sm:ml-3 sm:h-[100px] sm:mt-4 flex ">
         <i className="ri-shopping-cart-line absolute xl:ml-[34%] sm:ml-[80%] text-[#CA2F69]"></i>
          <img src="/images/bgt.png" alt=""/>
          <div className="prices flex justify-between xl:w-full xl:mt-5 xl:text-2xl xl:px-2 sm:py-5 sm:mt-[4%]">
@@ -47,7 +47,7 @@ const Checkout = () => {
          </div>
          
         </div>
-        <div className="summary bg-white rounded-[20px] xl:w-[590px] xl:ml-[50%] xl:mt-8 sm:w-[70%] sm:ml-12 sm:mt-3 ">
+        <div className="summary bg-white rounded-[20px] xl:w-[590px] xl:ml-[50%] xl:mt-8 sm:w-[70%] sm:ml-12 sm:mt-12 ">
            <p className='text-[#CA2F69] font-semibold text-2xl p-4'>CART SUMMARY</p>
            <div className="subtotal flex justify-between px-7 text-2xl text-[#CA2F69] font-semibold py-5">
             <p>Sub Total</p>

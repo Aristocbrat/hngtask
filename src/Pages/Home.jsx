@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const url = `https://api.timbu.cloud/products?organization_id=${organizationId}&reverse_sort=${reverseSort}&page=${page}&size=${size}&APP_ID=${appId}&API_KEY=${apiKey}`;
+         const url = `/api/products?organization_id=${organizationId}&reverse_sort=${reverseSort}&page=${page}&size=${size}&Appid=${appId}&Apikey=${apiKey}`;
 
       try {
         const response = await fetch(url, {
@@ -39,7 +39,7 @@ const Home = () => {
     };
 
     fetchProducts();
-  }, []);  // Empty dependency array means this effect runs once after the initial render
+  }, []); 
 
   if (loading) {
     return <div>Loading...</div>;
@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Products</h1>
+      <h1> Our Products</h1>
       <ul>
         {products.map((product) => (
           <li key={product.id}>{product.name}</li> 

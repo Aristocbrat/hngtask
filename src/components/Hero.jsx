@@ -25,9 +25,9 @@ const Hero = () => {
     </div>
 
     {/* ------------------------------------------------------------------------------------------------------------------- */}
-     <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-3  '>
+     <section className='Beatsellers text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-1 '>
        <h1 className='xl:text-6xl xl:ms-[5%] sm:text-[15px] sm:font-bold'>BestSellers</h1>
-       <div className='flex w-[90%] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[9%] sm:gap-3.5 sm:justify-between sm:px-1'>
+       <div className='flex xl:w-[90%] sm:w-[100%] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[9%] sm:gap-2 sm:justify-between sm:px-1'>
           <div className="frame1 xl:py-10 sm:py-5 "> 
             <img src="/images/browns.png" alt=""  className='sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]'/>
             <div className="price flex justify-between w-[100%]">
@@ -133,7 +133,7 @@ const Hero = () => {
 {/* ---------------------------------------------------------------------------------------------------------------- */}
       <section className='New Arrivals text-white  w-full h-full xl:px-8 xl:py-[1%] sm:py-5 sm:px-3'>
        <h1 className='xl:text-6xl sm:text-lg xl:ms-[5%] sm:font-bold'>New Arrivals</h1>
-       <div className='flex w-[full] flex-wrap  ml-[5%] xl:px-2 xl:gap-[11%] sm:gap-[9%] sm:justify-between '>
+       <div className='flex w-[full] flex-wrap  xl:ml-[5%] xl:px-2 xl:gap-[11%] sm:gap-[5%] sm:justify-between '>
           <div className="frame1 py-10  ">
             <img src="/images/na1.png" alt="" className='size-[200] sm:w-[150px] sm:h-[120px] xl:w-[300px] xl:h-[300px]' />
             <div className="price flex justify-between xl:w-[100%]">
@@ -324,7 +324,7 @@ const Hero = () => {
      </section>
      {/* -------------------------------------------------------------------------------- */}
      <section>
-      <div className='about text-white xl:w-[70%] sm:w-[90%] mx-auto flex flex-col justify-center mt-[5%]'>
+      <div className='about text-white xl:w-[70%] sm:w-[90%] mx-auto flex flex-col justify-center xl:mt-[5%] sm:mt-20'>
         <h1 className='mx-auto xl:text-6xl sm:text-2xl py-4'>ABOUT</h1>
         <p className='xl:py-4 ml-[3%] xl:text-2xl sm:text-[12px]'>Eby Treasures is a fashion brand that sells a wide range of clothing and accessories for men, women, and<br/>
          children. We are committed to providing our customers with high-quality, stylish, and affordable Wears that<br/> they can feel confident in.</p> 
